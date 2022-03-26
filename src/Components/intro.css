@@ -1,0 +1,30 @@
+.i {
+  display: flex;
+  height: 100vh;
+}
+.i-left {
+  flex: 1;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.i-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.i-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.namaste {
+  font-size: 50px;
+  font-weight: 100;
+  color: rebeccapurple;
+}
+.name {
+  font-size: 30px;
+}
