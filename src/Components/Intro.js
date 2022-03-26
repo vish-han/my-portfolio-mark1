@@ -11,18 +11,11 @@ const Intro = () => {
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Web Developer</div>
-              <div className="i-title-item">Engineering</div>
+              <div className="i-title-item">Engineering Student</div>
               <div className="i-title-item">Opensource Enthusiast</div>
               <div className="i-title-item">Technical Writer</div>
             </div>
           </div>
-          <p className="i-desc">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum,
-            ipsam vel aliquid repellendus nulla modi blanditiis molestiae iure
-            reiciendis alias temporibus quibusdam nam corporis nesciunt
-            voluptatem molestias consectetur officia ab, facilis dolores saepe
-            dolor.
-          </p>
         </div>
       </div>
       <div className="i-right">
