@@ -3,6 +3,7 @@
   height: 100vh;
 }
 .i-left {
+  margin-top: 165px;
   flex: 1;
   height: 100vh;
   align-items: center;
