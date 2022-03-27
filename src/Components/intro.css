@@ -41,6 +41,7 @@
 }
 .i-title-item {
   color: rebeccapurple;
+  align-self: center;
 }
 
 .i-title-wrapper {
