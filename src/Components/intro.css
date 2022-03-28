@@ -1,3 +1,9 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 .i {
   display: flex;
   height: 100vh;
@@ -72,6 +78,24 @@
   display: flex;
   align-items: center;
 }
+.btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffcc00;
+  color: black;
+  border: transparent;
+  border-radius: 15px;
+  width: 100;
+  padding: 12px;
+  height: 100;
+}
+.btn:hover {
+  color: #ffcc00;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid black;
+}
 @media screen and (max-width: 480px) {
   .i {
     flex-direction: column;
@@ -83,6 +107,10 @@
     justify-content: center;
     text-align: center;
     height: 100%;
+  }
+  .i-pic {
+    width: 250px;
+    height: 250px;
   }
 
   .i-desc {
