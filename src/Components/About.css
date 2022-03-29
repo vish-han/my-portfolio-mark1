@@ -1,4 +1,13 @@
 .a {
   height: 100vh;
   color: #acacac;
+  display: flex;
+
+  height: 100vh;
+}
+.a-right {
+  flex: 1;
+}
+.a-left {
+  flex: 1;
 }
