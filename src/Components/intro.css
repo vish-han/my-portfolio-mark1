@@ -42,6 +42,15 @@
   font-size: 60px;
   color: #ffcc00;
 }
+.i-links{
+  display: flex;
+  flex-direction: row;
+}
+
+.i-connections{
+ position: absolute;
+ top: 650px;
+}
 
 .i-title {
   height: 50px;
@@ -92,17 +101,30 @@
   padding: 12px;
   height: 100;
 }
+.twitter{
+  margin: 7px;
+}
 .btn:hover {
   color: #ffcc00;
   font-weight: bold;
   background-color: transparent;
   border: 2px solid black;
 }
+.connect{
+  font-weight:400;
+
+}
 @media screen and (max-width: 480px) {
   .i {
     flex-direction: column;
   }
-
+.btn{
+  display: hidden;
+}
+.twitter a img {
+  width:25px;
+  height:25px;
+}
   .i-left-wrapper {
     padding: 10px;
     align-items: center;

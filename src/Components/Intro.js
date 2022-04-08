@@ -8,7 +8,7 @@ const Intro = () => {
         type="button"
         class="btn"
         onClick={() => {
-          console.log("hello world");
+         
         }}
       >
         RESUME
@@ -26,12 +26,14 @@ const Intro = () => {
                 <div className="i-title-item">Technical Writer</div>
               </div>
             </div>
-            <div className="i-connections">
-              <h3>Connect with me </h3>
-            <div className="twitter">G</div>
-            <div className="twitter">G</div>
-            <div className="twitter">G</div>
-            <div className="twitter">G</div>
+         <div className="i-connections">
+              <h3 className="connect">Connect with me 😄  </h3>
+          < div className="i-links">
+            <div className="twitter"><a href="https://github.com/vish-han"><img src="https://img.icons8.com/glyph-neue/344/github.png" width="35" height="35"></img></a></div>
+            <div className="twitter"><a href="https://twitter.com/vishaldev09"><img src="https://img.icons8.com/ios-filled/344/twitter-circled--v1.png" width="35" height="35"></img></a></div>
+            <div className="twitter"><a href="https://www.linkedin.com/in/vishaldev09/"><img src="https://img.icons8.com/ios-filled/344/linkedin-circled--v1.png" width="35" height="35"></img></a></div>
+            <div className="twitter"><a href="http://www.vishalchauhan.hashnode.dev"><img src="https://img.icons8.com/color/344/hashnode.png" width="35" height="35"></img></a></div>
+          </div>
             </div>
           </div>
         </div>
