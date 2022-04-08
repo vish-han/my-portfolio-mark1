@@ -121,6 +121,10 @@
 .btn{
   display: none;
 }
+.i-connections{
+  position: absolute;
+  top: 375px;
+ }
 .twitter a img {
   width:25px;
   height:25px;
