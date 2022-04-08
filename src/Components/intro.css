@@ -119,7 +119,7 @@
     flex-direction: column;
   }
 .btn{
-  display: hidden;
+  display: none;
 }
 .twitter a img {
   width:25px;
