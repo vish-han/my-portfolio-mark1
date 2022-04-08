@@ -125,11 +125,12 @@
 }
 .i-connections{
   position: absolute;
-  top: 375px;
+  top: 400px;
+  right: 50;
  }
 .twitter a img {
-  width:25px;
-  height:25px;
+  width:35px;
+  height:35px;
 }
   .i-left-wrapper {
     padding: 10px;
