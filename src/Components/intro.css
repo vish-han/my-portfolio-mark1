@@ -7,7 +7,7 @@
 .i {
   display: flex;
   height: 100vh;
-  background-color: #11337b;
+  background-color: #ffffff;
 }
 
 .i-left {
@@ -33,7 +33,7 @@
 }
 
 .i-intro {
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 50px;
   font-weight: 200;
 }
